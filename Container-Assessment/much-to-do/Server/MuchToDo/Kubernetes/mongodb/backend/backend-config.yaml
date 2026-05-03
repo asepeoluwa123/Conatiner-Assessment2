@@ -1,0 +1,8 @@
+# backend-config.yaml
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: backend-config
+data:
+  PORT: "8080"
+  MONGO_URI: "mongodb://mongodb:27017/muchtodo"
